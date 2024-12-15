@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/c75d32ba-f4b9-417e-a1e5-ea8dcf3ffef4
+
 app.py contains a flask app that when run in the browser will return a spectrogram image and genre prediction.
 
 Starting out with using the feature extractor
@@ -53,7 +55,5 @@ plt.show()
 accuracy = np.sum(predictions == y_test) / len(y_test)
 print (f"accuracy: {accuracy}")
 ```
-
-https://github.com/user-attachments/assets/c75d32ba-f4b9-417e-a1e5-ea8dcf3ffef4
 
 
