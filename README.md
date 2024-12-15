@@ -53,3 +53,7 @@ plt.show()
 accuracy = np.sum(predictions == y_test) / len(y_test)
 print (f"accuracy: {accuracy}")
 ```
+
+https://github.com/user-attachments/assets/c75d32ba-f4b9-417e-a1e5-ea8dcf3ffef4
+
+
