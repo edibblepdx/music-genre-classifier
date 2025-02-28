@@ -10,9 +10,10 @@ Network (DNN).
 
 > app.py contains a flask app that when run in the browser will return a spectrogram image and genre prediction.
 
-## Examples
+# Using the Feature Extractor
 
-Starting out with using the feature extractor
+> I don't include my trained model in this repository
+
 ```python
 from FeatureExtract import FeatureExtract
 ```
@@ -33,7 +34,10 @@ To save and load the CNN model after training
 fe.load_model(path)
 fe.save_model(path=None, overwrite=False)
 ```
-Example use with SVM
+You may then use this CNN feature extractor as input to some other classifier.
+
+# Example use with SVM
+
 ```python
 fe = FeatureExtract()
 fe.load_model('cnn5.keras')
