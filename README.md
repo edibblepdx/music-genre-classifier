@@ -10,7 +10,7 @@ extract mel frequency capstone coeficients from the data for use in a Concurrent
 The SVM outperformed a Dense Nueral Network (DNN).
 
 > [GTZAN Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
->— I only use the raw audio and labels
+>— I only use the raw audio and labels.
 
 > app.py contains a flask app that when run in the browser will return a spectrogram image and genre prediction.
 
