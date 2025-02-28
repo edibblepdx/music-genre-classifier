@@ -25,17 +25,18 @@ fe.train(features=x, labels=y, predict=False)
 features = fe.extract(x) # returns a tf.Tensor
 features = features.numpy() # to get a numpy array
 ```
-Subsequent importing of the mfcc values can be made quicker with (these are not the values axtractedfrom the CNN)
+### Subsequent importing of the mfcc values can be made quicker
+> (these are not the values axtractedfrom the CNN)
 ```python
 fe.save_csv('mfccs.csv', features, labels)
 x, y = fe.load_csv('mfccs.csv')
 ```
-To save and load the CNN model after training
+### To save and load the CNN model after training
 ```python
 fe.load_model(path)
 fe.save_model(path=None, overwrite=False)
 ```
-You may then use this CNN feature extractor as input to some other classifier.
+> You may then use this CNN feature extractor as input to some other classifier.
 
 # Example use with SVM
 
