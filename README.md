@@ -2,11 +2,12 @@
 
 https://github.com/user-attachments/assets/c75d32ba-f4b9-417e-a1e5-ea8dcf3ffef4
 
-I extract mel frequency capstone coeficients from the data for use in a Concurrent
-Neural Network (CNN) for preprocessing and feature reduction to be used as inputs
-to a Support Vector Machine (SVM) for classification. I was able to get 91.5%
-accuracy on the test set using an RBF Kernel. The SVM outperformed a Dense Nueral 
-Network (DNN).
+I include along with an interface for the tool made to extract features, sample code for a DNN
+and SVM, as well as the source for the website used to host my trained model. The method was to 
+extract mel frequency capstone coeficients from the data for use in a Concurrent Neural Network 
+(CNN) for preprocessing and feature reduction to be used as inputs to a Support Vector Machine 
+(SVM) for classification. I was able to get 91.5% accuracy on the test set using an RBF Kernel. 
+The SVM outperformed a Dense Nueral Network (DNN).
 
 > app.py contains a flask app that when run in the browser will return a spectrogram image and genre prediction.
 
