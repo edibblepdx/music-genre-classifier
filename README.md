@@ -25,8 +25,8 @@ fe.train(features=x, labels=y, predict=False)
 features = fe.extract(x) # returns a tf.Tensor
 features = features.numpy() # to get a numpy array
 ```
-### Subsequent importing of the mfcc values can be made quicker
-> (these are not the values axtractedfrom the CNN)
+### Subsequent use of the mfcc values can be made quicker
+> These are not the values extracted from the CNN! Use these to train multiple CNNs.
 ```python
 fe.save_csv('mfccs.csv', features, labels)
 x, y = fe.load_csv('mfccs.csv')
