@@ -38,7 +38,7 @@ fe.save_model(path=None, overwrite=False)
 ```
 > You may then use this CNN feature extractor as input to some other classifier.
 
-# Example use with SVM
+# Example use with SVM Classifier
 
 ```python
 fe = FeatureExtract()
