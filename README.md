@@ -75,4 +75,6 @@ accuracy = np.sum(predictions == y_test) / len(y_test)
 print (f"accuracy: {accuracy}")
 ```
 
+# Collaborative Paper
 
+[Comparison of Support Vector Machines, Neural Networks, and Naive Bayes for Classifying Audio Snippets Within Music Genres](https://github.com/edibblepdx/music-genre-classifier/blob/main/Comparison%20of%20Support%20Vector%20Machines%2C%20Neural%20Networks%2C%20and%20Naive%20Bayes%20for%20Classifying%20Audio%20Snippets%20Within%20Music%20Genres.pdf)
